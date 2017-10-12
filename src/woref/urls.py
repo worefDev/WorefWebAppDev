@@ -15,7 +15,14 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from worefApp.views import home, tables, queries, forms, reports
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$',home),
+    url(r'^tables/$',tables),
+    url(r'^queries/$',queries),
+    url(r'^forms/$',forms),
+    url(r'^reports/$',reports)
 ]

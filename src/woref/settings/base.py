@@ -54,7 +54,7 @@ ROOT_URLCONF = 'woref.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')], #hier/ist/dein/Path/zu/deinem/Template/folder
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
