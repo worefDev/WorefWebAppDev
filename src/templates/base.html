@@ -3,11 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{%block head_title%}Woref WebApp{%endblock head_title%}</title>
+{%include 'snippets/css.html'%}
 </head>
 <body>
-<h1>Wohnungsreferat WebApp</h1>
 <div class="container">
+<h1>Wohnungsreferat WebApp</h1>
+{%include 'snippets/nav.html'%}
+
 {%block content%}
     Hello zrzr
     {%endblock content%}
@@ -15,4 +18,5 @@
 
 
 </body>
+{%include 'snippets/js.html'%}
 </html>

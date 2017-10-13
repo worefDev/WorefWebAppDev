@@ -1,4 +1,5 @@
 {%extends "base.html"%}
+{%block head_title%}Forms || {{block.super}}{%endblock head_title%}
 {%block content%}
 <!DOCTYPE html>
 <html lang="en">
@@ -19,4 +20,5 @@
 
 </body>
 </html>
+{%include 'snippets/sidebar.html'%}
 {%endblock content%}
