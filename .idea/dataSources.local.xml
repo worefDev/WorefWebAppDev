@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="webapp_test@woref-stuttgart.de" uuid="cacc5577-7142-4dff-ac4c-308907b5c6b8">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>webapp_test</user-name>
+    </data-source>
+  </component>
+</project>
